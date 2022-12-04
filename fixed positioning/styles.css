@@ -1,0 +1,23 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #AAAFB2;
+}
+
+/* nav */
+
+.nav-container{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    padding: 15px 40px;
+    background-color: rgb(56,38,208);
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.btn-blue:hover{
+ background-color: rgb(167, 161, 198);
+ color: black;
+ border-color: gray;
+}
+
+
+.nav-item{
+    flex: 1;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+
+}
+
+.ul-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    list-style-type: none;
+}
+
+.ul-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup-btn{
+    background-color: antiquewhite;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.signup-btn a{
+    color: rgb(56,38,208);
+    font-weight: bold;
+}
+
+/* header */
+
+img{
+    width: 100%;
+}
+
+header{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header h1{
+    font-weight:bold;
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+header p{
+    font-size: larger;
+}
+
+.left-item{
+    flex:2;
+    text-align: center;
+}
+
+.right-item{
+    flex: 1;
+}
+
+/* main */
+main{
+    padding: 40px;
+    background-color: #54A3F0;
+}
+
+.heading {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.plan-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan-item{
+    font-size: small;
+    padding: 20px;
+    width: 250px;
+    height: 320px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.plan-title {
+    font-size:x-large;
+    text-align: center;
+}
+
+.plan-item > * {
+    margin-bottom: 15px;
+}
+
+.features{
+    display: flex;
+}
+
+.features > img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.plan-item button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    width: 100%;
+    border: 2px solid #3620D2;
+}
+
+.btn:hover{
+    background-color: #3620D2;
+    color: white;
+   }
+
+.gold button{
+    background-color: #3620D2;
+    color: white;
+}
+
+
+.price{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+/* footer */
+
+footer > p {
+    padding: 30px;
+    text-align: center;
+}
+
+.relatively-up{
+    position: relative;
+    top: 15px
+}
+
+.relatively-down{
+    position: relative;
+    bottom: 15px
+}
